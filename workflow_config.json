@@ -1,0 +1,25 @@
+{
+  "timezone": "Asia/Kolkata",
+  "business_days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "business_start": "09:00",
+  "business_end": "18:00",
+  "holidays": [],
+  "sla_minutes": {
+    "critical": 1,
+    "high": 1,
+    "medium": 240,
+    "low": 720
+  },
+  "warning_fraction": 0.75,
+  "duplicate_similarity": 0.86,
+  "related_similarity": 0.58,
+  "monitor_interval": 2
+}
