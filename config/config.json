@@ -1,0 +1,45 @@
+
+{
+    "timezone": "Asia/Kolkata",
+    "allowed_extensions": [
+    ".txt",
+    ".md",
+    ".json",
+    ".pdf",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp"
+],
+    "max_file_size_mb": 5,
+    "scheduled_update_time": "02:00",
+    "maintenance_window_start": "02:00",
+    "maintenance_window_end": "04:00",
+    "retry_delays_minutes": [15, 30, 60],
+    "health_check_duration_minutes": 5,
+    "health_check_interval_seconds": 30,
+    "negative_accuracy_tolerance": 0.0,
+    "negative_grounding_tolerance": 0.0,
+    "minimum_accuracy": 0.8,
+    "minimum_grounding": 0.8,
+    "minimum_confidence": 0.5,
+    "max_latency_ms": 3000,
+    "max_failure_rate": 0.05,
+    "max_escalation_rate": 0.5,
+    "require_authorized_access": true,
+    "mask_sensitive_data": true,
+    "block_prompt_injection": true,
+    "conversation": {
+    "supported_languages": ["en", "hi", "te", "ta"],
+    "default_language": "en",
+    "language_confidence_threshold": 0.70,
+    "intent_confidence_threshold": 0.65,
+    "context_message_limit": 10,
+    "session_timeout_minutes": 30,
+    "session_restore_hours": 24,
+    "spelling_tolerance": true,
+    "transliteration_support": true,
+    "mixed_language_support": true
+    }
+
+}

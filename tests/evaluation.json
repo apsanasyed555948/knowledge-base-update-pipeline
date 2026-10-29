@@ -1,0 +1,9 @@
+
+[
+    {
+        "question": "When is support available?",
+        "expected_answer": "Monday to Friday",
+        "answer": "Our support team is available Monday to Friday.",
+        "grounding_terms": ["Monday to Friday"]
+    }
+]

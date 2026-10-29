@@ -1,0 +1,56 @@
+[
+  {
+    "file": "faq.txt",
+    "version": "1.0",
+    "product": "general",
+    "region": "global",
+    "access_level": "customer",
+    "effective_date": "2026-01-01",
+    "expiry_date": null
+  },
+  {
+    "file": "rollback_test.txt",
+    "version": "1.0",
+    "product": "general",
+    "region": "global",
+    "access_level": "customer",
+    "effective_date": "2026-01-01",
+    "expiry_date": null
+  },
+  {
+  "file": "policy_test.txt",
+  "version": "1.0",
+  "product": "premium",
+  "region": "global",
+  "access_level": "customer",
+  "effective_date": "2026-01-01",
+  "expiry_date": null
+},
+{
+  "file": "policy_test_v2.txt",
+  "version": "2.0",
+  "product": "premium",
+  "region": "global",
+  "access_level": "customer",
+  "effective_date": "2026-10-01",
+  "expiry_date": null
+},
+{
+  "file": "staff_policy_test.txt",
+  "version": "1.0",
+  "product": "premium",
+  "region": "global",
+  "access_level": "staff",
+  "effective_date": "2026-01-01",
+  "expiry_date": null
+},
+{
+  "file": "injection_test.txt",
+  "version": "1.0",
+  "product": "premium",
+  "region": "global",
+  "access_level": "customer",
+  "effective_date": "2026-01-01",
+  "expiry_date": null
+}
+]

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# Generated logs and runtime state
+logs/
+versions/
+quarantine/
+
+# Local conversation data and test documents
+conversation_sessions.json
+test_invoice.pdf
+
+# Python cache and environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
